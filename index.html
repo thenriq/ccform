@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- Created by Thiago Lima - Web Application Development - GMIT 2021 -->
+<html>
+<head>
+		<title>User Input</title>
+</head>
+	
+	<body>
+	
+		<form>
+			<label for="fname">First name:</label><br>
+			<input type="text" id="fname" name="fname" ><br>
+			
+			<label for="lname">Last name:</label><br>
+			<input type="text" id="lname" name="lname"><br>
+			
+			<label for="email">Email Address:</label><br>
+			<input type="email" id="email" name="email"><br><br>
+						
+			<label for="birthdaytime">Date of Birth:</label>
+			<input type="date" id="birthdaytime" name="birthdaytime"><br>
+			
+			<br>
+			
+			<fieldset>
+				<legend>Credit Card Type:</legend>
+				
+					<input type="radio" name="card"/><img src="cc_ico/visa.png" align="center" width="50" alt="Visa" title="Visa"><br/>
+					
+					<input type="radio" name="card"/><img src="cc_ico/visa_debit.png" align="center" width="50" alt="Visa Debit" title="Visa Debit"><br/>
+					
+					<input type="radio" name="card"/><img src="cc_ico/mastercard.png" align="center" width="50" alt="Mastercard" title="Mastercard"><br/>
+					
+					<input type="radio" name="card"/><img src="cc_ico/american_express2.png" align="center" width="50" alt="American-Express" title="American-Express"><br/>
+					
+					<br>
+					
+					<input type="text" id="fname" name="fname" >
+					<label for="fname">Credit Card Number:</label><br><br>
+					
+					<label for="expyear">Expiry Year:</label>
+					<select>
+						<option selected="selected">2021</option>
+						<option>2022</option>
+						<option>2023</option>
+						<option>2024</option>
+						<option>2025</option>
+						<option>2026</option>
+						<option>2027</option>
+						<option>2028</option>
+						<option>2029</option>
+						<option>2030</option>
+					</select>
+					
+					<br><br>
+					
+					<label for="expmonth">Expiry Monty:</label>
+					<select>
+						<option selected="selected">Select Month</option>
+						<option>January</option>
+						<option>Februay</option>
+						<option>Mars</option>
+						<option>April</option>
+						<option>May</option>
+						<option>Jun</option>
+						<option>July</option>
+						<option>August</option>
+						<option>September</option>
+						<option>October</option>
+						<option>November</option>
+						<option>December</option>
+					</select>
+											
+				<br /><br />
+				
+			</fieldset>
+			
+			<br>
+
+			Aditional Notes:<br>
+			<textarea cols="30" rows="4">
+				Enter additional information here...
+			</textarea>
+			
+			<br><br>
+			
+			<input type="submit" value="Submit Card Details">
+
+		</form>
+		
+	</body>
+	
+</html>	
